@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Half-Baked Thoughts</title>
+<link rel="stylesheet" href="css/style.css?v=1783228489">
+<script src="js/gate.js?v=1783228489"></script>
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar">
+    <h1><a href="index.html">Half-Baked Thoughts</a></h1>
+    <div class="sub">everything, one dashboard</div>
+    <ul id="sidebarList"></ul>
+    <div class="sidebar-footer">
+      <a href="about.html">About this notebook</a>
+    </div>
+  </div>
+
+  <main>
+    <div class="page-header">
+      <h2 id="dashboardHeading">All Topics — latest first</h2>
+      <button class="pill" id="newThoughtBtn" type="button">+ New Thought</button>
+    </div>
+    <div class="bento" id="bentoGrid"></div>
+  </main>
+</div>
+
+<script src="js/posts-data.js?v=1783228489"></script>
+<script src="js/site.js?v=1783228489"></script>
+<script>initHome();</script>
+</body>
+</html>
